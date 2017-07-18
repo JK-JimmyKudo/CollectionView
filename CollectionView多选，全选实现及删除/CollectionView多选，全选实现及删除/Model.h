@@ -8,11 +8,22 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void(^NSArrayMblock)(NSMutableArray *array);
+
 @interface Model : NSObject
 
-@property (nonatomic,assign) NSInteger dele;
-@property (nonatomic,copy) NSString *name;
+@property (nonatomic,copy) NSString *id;
+@property (nonatomic,copy) NSString *posterfid2;
+@property (nonatomic,copy) NSString *vname;
+@property (nonatomic,copy) NSString *connerMark;
+@property (nonatomic,copy) NSString *select;
+
+@property (nonatomic,copy) NSArrayMblock arrayBlock;
 
 +(instancetype)modelDict:(NSDictionary *)dict;
+
++(void) loadDataArray:(NSArrayMblock) arrar;
+
+
 
 @end

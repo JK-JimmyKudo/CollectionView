@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+//删除
+typedef void(^DeleteBlock)();
+typedef void(^AllSelectBlock)(NSString *str);
+typedef void(^SelectBlock)();
 
 @interface ButtomView : UIView
 
@@ -15,5 +19,11 @@
 
 @property (nonatomic,strong) UIButton *rightBtn;
 
+
+@property (nonatomic,copy) DeleteBlock deleteBlock;
+@property (nonatomic,copy) AllSelectBlock AllSelect;
+@property (nonatomic,copy) SelectBlock  select;
+
+@property (nonatomic,assign) BOOL All;
 
 @end

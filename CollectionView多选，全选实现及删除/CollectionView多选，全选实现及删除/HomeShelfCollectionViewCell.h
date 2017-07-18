@@ -12,4 +12,7 @@
 
 @property(nonatomic,strong) Model *model;
 
+
+- (void)cellInfoWithDictionary:(Model *)model withEditingMode:(BOOL)isEditing;
+
 @end

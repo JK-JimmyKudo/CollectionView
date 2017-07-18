@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F1325E61F1E0F0700740BFA /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1325E51F1E0F0700740BFA /* UIViewExt.m */; };
 		6F216BDF1F164A010040EECE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F216BDE1F164A010040EECE /* main.m */; };
 		6F216BE21F164A010040EECE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F216BE11F164A010040EECE /* AppDelegate.m */; };
 		6F216BE51F164A010040EECE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F216BE41F164A010040EECE /* ViewController.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F1325E41F1E0F0700740BFA /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		6F1325E51F1E0F0700740BFA /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		6F216BDA1F164A010040EECE /* CollectionView多选，全选实现及删除.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CollectionView多选，全选实现及删除.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F216BDE1F164A010040EECE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6F216BE01F164A010040EECE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 				6F216BE41F164A010040EECE /* ViewController.m */,
 				6F216BF41F164AA00040EECE /* HomeShelfCollectionViewCell.h */,
 				6F216BF51F164AA00040EECE /* HomeShelfCollectionViewCell.m */,
+				6F1325E41F1E0F0700740BFA /* UIViewExt.h */,
+				6F1325E51F1E0F0700740BFA /* UIViewExt.m */,
 				6F216BF71F1653920040EECE /* Model.h */,
 				6F216BF81F1653920040EECE /* Model.m */,
 				6F6C00B51F170A6000C6F180 /* ButtomView.h */,
@@ -166,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F1325E61F1E0F0700740BFA /* UIViewExt.m in Sources */,
 				6F216BE51F164A010040EECE /* ViewController.m in Sources */,
 				6F6C00B71F170A6000C6F180 /* ButtomView.m in Sources */,
 				6F216BE21F164A010040EECE /* AppDelegate.m in Sources */,
@@ -295,6 +301,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GMXVAYY95W;
 				INFOPLIST_FILE = "CollectionView多选，全选实现及删除/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.3dov.CollectionView----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GMXVAYY95W;
 				INFOPLIST_FILE = "CollectionView多选，全选实现及删除/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.3dov.CollectionView----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
